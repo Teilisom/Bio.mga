@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :ital,wght@1,200 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#0f0f0e), to(#f0cfaa)) fixed;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.foto {
+   width: 100%;
+   max-width: 125px;
+   margin-top: 3rem;
+    
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 50%;
+    border:  2px solid rgb(238, 235, 235);
+    margin: 10px;
+}
+
+
+
+.texto {
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+
+
+.texto p {
+    color: #bbb;
+    margin: 5px 0;
+}
+
+.apli {
+    width: 70%;
+    text-align: center;
+}
+
+.apli-apli-a:hover{
+    background: #f0cfaa;
+    border: solid #f0cfaa ;
+}
+
+.apli-apli-a {
+    position: relative;
+    align-items: center;
+    
+    border: 2px solid white;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.3s;
+    
+}
+
+.apli h2 {
+    font-weight: normal;
+    color: rgb(255, 252, 252);
+}
+
+.apli a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.apli-apli-a i {
+  position: absolute;
+  left: 25px;
+  line-height: 0.9;
+  font-size: 1.2rem;
+}
+
+.maps {
+    margin-top: 20px;
+    text-decoration:underline solid rgb(61, 57, 57);
+    margin-bottom: 50px;
+    
+    
+}
+
+.maps a {
+    color: #bbb;
+}
+
+
